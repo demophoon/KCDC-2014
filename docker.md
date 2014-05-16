@@ -23,6 +23,10 @@ You can build docker containers off of each other.
 **Consider writing a service that allows you to create a heroku using docker**
 Heroku push automatically updates the running containers
 
+Checkout
+--------
+docker diff
+
 Docker Projects:
   - Orchard - Super computing
   - git:CenturyLinkLabs/building - Heroku with docker
