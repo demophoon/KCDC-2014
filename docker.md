@@ -21,5 +21,19 @@ Dockerfile you can use `docker build .` and it will build the dockerfile.
 You can build docker containers off of each other.
 
 **Consider writing a service that allows you to create a heroku using docker**
+Heroku push automatically updates the running containers
+
+Docker Projects:
+  - Orchard - Super computing
+  - git:CenturyLinkLabs/building - Heroku with docker
+  - Fig - Fast dev environments with Docker
+  - Fleet - Manages containers in a running system
+  - Shipyard
+
+"Modifying a running server is the new Anti-pattern"
+----------------------------------------------------
+Never login to the server to change a configuration on the production server.
+Always use the docker container and push up the changes to production to let
+docker handle the deployment process.
 
 vim: ft=markdown tw=80 sts=2 colorcolumn=80
